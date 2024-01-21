@@ -1,0 +1,40 @@
+.pomodoro__container {
+  max-width: 1000px;
+  width: 85vw;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
+  border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.pomodoro__wrapper {
+  padding: 8px;
+}
+
+h1 {
+  font-size: 2em;
+  color: white;
+}
+
+p {
+  font-size: 3em;
+  color: white;
+}
+
+button {
+  font-size: 1.5em;
+  margin: 10px;
+  padding: 0px 40px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
